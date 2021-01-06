@@ -1,0 +1,8 @@
+# Ted Talk Analysis
+In this TED talk analysis, we mainly used a ted talk dataset scraped on 24-JUN-20 from TED.com and https://www.kaggle.com/thegupta/ted-talk. This dataset contains 4609 rows and 52 columns where each row represents an individual talk and each column details informatin like speaker, transcript, and other related attributes for the corresponding talk. We also scraped a Wikipedia page to get speaker's own wikipedia page and join it with the original dataframe.
+
+In the later part of this notebook, since we don't have rating column in this main dataset, we had it merged with another talk dataset that has rating feature included and contains 2550 rows and 17 features. However, we did not use the joined dataframe for machine learning due to not having sufficient rows.
+
+Studying TED Talks, one of the most informative and influential shows in the world, helps us better understand what kinds of presentations are powerful and fun when spreading ideas. We are interested in finding out the similarity of the transcript or other attributes for these well-liked ted talks and we want to figure out the key features to predict popular talks.
+
+Our project will do a lot of work on exploratory data analysis and NLP to show how each feature is related to the popular talks and the common points between these talks. At the later part of our project, we will focus on various kind of machine learning algorithms. We will also merge our original dataframe with other dataset that include extra columns and scrap wikipedia pages of the primary speakers to try to add new features to our model. Our final goal is to build the model that can efficently predict whether a talk is has a great number of views.
