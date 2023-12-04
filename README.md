@@ -1,6 +1,11 @@
 # Ted Talk Analysis
 
-## Please refer to the .ipynb file for the entire analysis and report!
+**More info in the .ipynb notebook!**
+- introduction (dataset, features)
+- data preprocessing
+- feature engineering and EDA
+- final data processing
+- modeling
 
 ## Goal
 In this TED talk analysis, we mainly used a TED talk dataset scraped on 24-JUN-20 from TED.com and https://www.kaggle.com/thegupta/ted-talk. This dataset contains 4609 rows and 52 columns where each row represents an individual talk and each column details information like speaker, transcript, and other related attributes for the corresponding talk. We also scraped a Wikipedia page to get the speaker's own Wikipedia page and join it with the original dataframe.
