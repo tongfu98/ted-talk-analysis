@@ -1,5 +1,7 @@
 # Ted Talk Analysis
 
+## Please refer to the .ipynb file for the entire analysis and report!
+
 ## Goal
 In this TED talk analysis, we mainly used a TED talk dataset scraped on 24-JUN-20 from TED.com and https://www.kaggle.com/thegupta/ted-talk. This dataset contains 4609 rows and 52 columns where each row represents an individual talk and each column details information like speaker, transcript, and other related attributes for the corresponding talk. We also scraped a Wikipedia page to get the speaker's own Wikipedia page and join it with the original dataframe.
 
@@ -8,6 +10,20 @@ In the later part of this notebook, since we don't have a rating column in this 
 Studying TED Talks, one of the most informative and influential shows in the world, helps us better understand what kinds of presentations are powerful and fun when spreading ideas. We are interested in finding out the similarity of the transcript or other attributes for these well-liked TED talks and we want to figure out the key features to predict popular talks.
 
 Our project will do a lot of work on exploratory data analysis and NLP to show how each feature is related to the popular talks and the common points between these talks. In the later part of our project, we will focus on various kinds of machine learning algorithms. We will also merge our original dataframe with other datasets that include extra columns and scrap Wikipedia pages of the primary speakers to try to add new features to our model. Our final goal is to build a model that can efficiently predict whether a talk has a great number of views.
+
+## Interesting finds
+
+Most common words
+![most_common](screenshots/most_common.png)
+
+Most common words for least popular videos
+![least_popular](screenshots/least_popular.png)
+
+Most common words for most popular videos
+![most_popular](screenshots/most_popular.png)
+
+Top 15 importance factors that impact a video's view 
+![top_15_importance](screenshots/top_15_importance.png)
 
 
 ## Conclusion
